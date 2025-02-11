@@ -1,0 +1,53 @@
+body {
+    background: url('https://source.unsplash.com/1600x900/?technology,abstract') no-repeat center center/cover;
+  }
+  
+  .glassmorphism {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    height: 40vh;
+    max-height: 70vh;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .glassmorphism:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .italic-text {
+    font-style: italic;
+  }
+  
+  /* Responsive Fixes */
+  @media (max-width: 768px) {
+    .glassmorphism {
+      padding: 15px;
+    }
+  
+    .card-title {
+      font-size: 1.2rem;
+    }
+  
+    .card-text {
+      font-size: 0.9rem;
+    }
+  }
+  
